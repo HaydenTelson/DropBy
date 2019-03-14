@@ -1,6 +1,6 @@
 <html>
 {{> headers}}
-<body style="background-color: #F3E8EE;">
+<body style="background-color: #B7CECE;">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -28,7 +28,7 @@
       <a href="myEvents">My Events</a>
     </div>
 
-    <img src= "./images/Logo.png" style="width:50px;height:50px;">
+    <img src= "./images/DropByLogo.png" style="width:50px;height:50px;">
 
     
     </div>
@@ -39,7 +39,7 @@
 
   <br><br>
 
-  <center><form action= "/createEvent" method="post">
+  <center><form class="box2" action= "/createEvent" method="post">
   Event Type:
   <select required name = "eventType">
     <option value= "">Select an Event Type</option>
@@ -69,7 +69,7 @@
   Description:
   <input type="text" name="description" required><br><br>
 
-  <input type="submit">
+  <input type="submit" value="Create Event">
   </form></center>
 
 </div>
